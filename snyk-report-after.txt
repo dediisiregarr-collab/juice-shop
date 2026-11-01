@@ -1,7 +1,7 @@
 
 Testing C:\Users\Dedi\juice-shop...
 
-Tested 704 dependencies for known issues, found 43 issues, 73 vulnerable paths.
+Tested 703 dependencies for known issues, found 41 issues, 71 vulnerable paths.
 
 
 Issues to fix by upgrading:
@@ -62,10 +62,6 @@ Issues to fix by upgrading:
   ✗ Arbitrary Code Injection [High Severity][https://security.snyk.io/vuln/SNYK-JS-LODASH-15869625] in lodash@4.17.21
     introduced by finale-rest@1.2.2 > lodash@4.17.21 and 3 other path(s)
 
-  Upgrade sqlite3@5.1.7 to sqlite3@6.0.1 to fix
-  ✗ Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-18319500] in tar@7.5.19
-    introduced by sqlite3@5.1.7 > tar@7.5.19
-
 
 Issues with no direct upgrade or patch:
   ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-BASICFTP-20419408] in basic-ftp@5.3.1
@@ -87,9 +83,6 @@ Issues with no direct upgrade or patch:
     introduced by download@8.0.0 > decompress@4.2.1
   No upgrade or patch available
   ✗ Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-DECOMPRESS-17937347] in decompress@4.2.1
-    introduced by download@8.0.0 > decompress@4.2.1
-  No upgrade or patch available
-  ✗ Directory Traversal [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-DECOMPRESS-20254116] in decompress@4.2.1
     introduced by download@8.0.0 > decompress@4.2.1
   No upgrade or patch available
   ✗ Arbitrary File Write via Archive Extraction (Zip Slip) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-DECOMPRESSTAR-559095] in decompress-tar@4.1.1

@@ -1,19 +1,9 @@
-# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.25.1
-# ignores vulnerabilities until expiry date; change duration by modifying expiry date
-ignore:
-  SNYK-JS-XXXX-1234567:
-    - '*':
-        reason: >-
-          Belum ada versi perbaikan dari vendor, risiko diterima sementara dan
-          akan ditinjau ulang
-        expires: 2027-06-30T00:00:00.000Z
-        created: 2026-11-01T08:45:08.628Z
-  SNYK-JS-DECOMPRESS-20254116:
-    - '*':
-        reason: >-
-          Belum ada versi perbaikan, hanya dipakai pada dependensi dev dan tidak
-          masuk bundle produksi
-        expires: 2027-06-30T00:00:00.000Z
-        created: 2026-11-01T09:12:03.806Z
-patch: {}
+   version: v1.25.1
+   ignore:
+     SNYK-JS-DECOMPRESS-20254116:
+       - '*':
+           reason: >-
+             Belum ada versi perbaikan dari vendor, risiko diterima
+             sementara dan akan ditinjau ulang
+           expires: 2027-06-30T00:00:00.000Z
+   patch: {}
