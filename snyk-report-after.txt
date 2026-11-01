@@ -1,16 +1,10 @@
 
 Testing C:\Users\Dedi\juice-shop...
 
-Tested 724 dependencies for known issues, found 47 issues, 77 vulnerable paths.
+Tested 704 dependencies for known issues, found 43 issues, 73 vulnerable paths.
 
 
 Issues to fix by upgrading:
-
-  Upgrade @cyclonedx/cyclonedx-npm@4.2.1 to @cyclonedx/cyclonedx-npm@6.0.0 to fix
-  ✗ Command Injection [High Severity][https://security.snyk.io/vuln/SNYK-JS-CYCLONEDXCYCLONEDXNPM-20158546] in @cyclonedx/cyclonedx-npm@4.2.1
-    introduced by @cyclonedx/cyclonedx-npm@4.2.1
-  ✗ Command Injection [High Severity][https://security.snyk.io/vuln/SNYK-JS-CYCLONEDXCYCLONEDXNPM-17817903] in @cyclonedx/cyclonedx-npm@4.2.1
-    introduced by @cyclonedx/cyclonedx-npm@4.2.1
 
   Upgrade file-type@16.5.4 to file-type@21.3.1 to fix
   ✗ Infinite loop [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FILETYPE-15456217] in file-type@16.5.4
@@ -31,12 +25,6 @@ Issues to fix by upgrading:
     introduced by download@8.0.0 > got@8.3.2 > cacheable-request@2.1.4 > http-cache-semantics@3.8.1 and 3 other path(s)
   ✗ Improper Authorization [High Severity][https://security.snyk.io/vuln/SNYK-JS-HTTPCACHESEMANTICS-19964068] in http-cache-semantics@3.8.1
     introduced by download@8.0.0 > got@8.3.2 > cacheable-request@2.1.4 > http-cache-semantics@3.8.1 and 3 other path(s)
-
-  Upgrade pdfkit@0.11.0 to pdfkit@0.12.2 to fix
-  ✗ Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-CRYPTOJS-18599395] in crypto-js@3.3.0
-    introduced by pdfkit@0.11.0 > crypto-js@3.3.0
-  ✗ Use of Weak Hash [High Severity][https://security.snyk.io/vuln/SNYK-JS-CRYPTOJS-6028119] in crypto-js@3.3.0
-    introduced by pdfkit@0.11.0 > crypto-js@3.3.0
 
   Upgrade sanitize-html@1.4.2 to sanitize-html@2.18.0 to fix
   ✗ Cross-site Scripting (XSS) (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-SANITIZEHTML-21280765] in sanitize-html@1.4.2
@@ -149,6 +137,7 @@ Target file:       package.json
 Project name:      juice-shop
 Open source:       no
 Project path:      C:\Users\Dedi\juice-shop
+Local Snyk policy: found
 Licenses:          enabled
 
 Tip: Detected multiple supported manifests (1), use --all-projects to scan all of them at once.

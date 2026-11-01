@@ -9,4 +9,11 @@ ignore:
           akan ditinjau ulang
         expires: 2027-06-30T00:00:00.000Z
         created: 2026-11-01T08:45:08.628Z
+  SNYK-JS-DECOMPRESS-20254116:
+    - '*':
+        reason: >-
+          Belum ada versi perbaikan, hanya dipakai pada dependensi dev dan tidak
+          masuk bundle produksi
+        expires: 2027-06-30T00:00:00.000Z
+        created: 2026-11-01T09:12:03.806Z
 patch: {}
